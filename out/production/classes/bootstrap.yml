@@ -8,10 +8,16 @@ spring:
     config:
       server:
         git:
-          uri: G:\support_prasanth\workspace\config-server\src\main\resources
-          cloneOnStart: true
+          uri: https://github.com/ganeshgoli/servercloudconfig.git
 
 #Disable security of the Management endpoint
-management:
-  security:
-    enabled: false
+#management:
+ # security:
+  #  enabled: false
+
+
+#spring.application.name=config-server
+#server.port=8888
+
+#spring.cloud.config.server.git.uri=file://eclipe/spring-config/
+#spring.cloud.config.server.git.uri=https://github.com/ganeshgoli/servercloudconfig.git
